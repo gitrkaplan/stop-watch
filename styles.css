@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  background-color: rgb(40, 44, 52);
+}
+
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: rgb(127, 137, 151);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 32vw;
+}
+
+.timer {
+  display: block;
+  text-align: center;
+}
+
+button {
+  padding: 20px 35px;
+  margin: 0 12px 50px;
+  justify-content: space-between;
+  border-radius: 8px;
+  outline: none;
+  color: #ecf0f1;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 2vw;
+}
+
+#start {
+  background-color: #27ae60;
+  border: #27ae60 1px solid;
+}
+
+#stop {
+  background-color: #e74c3c;
+  border: #e74c3c 1px solid;
+}
+
+#reset {
+  background-color: rgb(127, 137, 151);
+  border: #7f8c8d 1px solid;
+}
+
+button:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
