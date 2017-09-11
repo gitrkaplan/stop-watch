@@ -24,6 +24,7 @@ p {
   color: rgb(127, 137, 151);
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 32vw;
+  margin-bottom: 4vh;
 }
 
 .timer {
@@ -60,4 +61,10 @@ button {
 button:hover {
   opacity: 0.7;
   transition: opacity 0.3s ease-in-out;
+}
+
+@media (max-width: 700px) {
+  button {
+    font-size: 4vw;
+  }
 }
