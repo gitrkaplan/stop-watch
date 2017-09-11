@@ -33,6 +33,7 @@ function reset () {
   $seconds.textContent = '00'
   $minutes.textContent = '00'
   seconds = 0
+  minutes = 0
 }
 
 $buttonStart.addEventListener('click', function () {
